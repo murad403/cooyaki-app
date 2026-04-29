@@ -12,10 +12,10 @@ function App() {
     <SafeAreaProvider>
       <SafeAreaView style={appStyles.safeArea}>
         <StatusBar
-          backgroundColor="#ffc0cb"
+          backgroundColor="#ffffff"
           barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         />
-        <View className="flex-1 bg-black">
+        <View className="flex-1 bg-white">
           <NavigationContainer>
             <RootNavigation />
           </NavigationContainer>
@@ -30,6 +30,6 @@ export default App;
 const appStyles = StyleSheet.create({
   safeArea: {
     flex: 1,
-    backgroundColor: '#b0a4b3',
+    backgroundColor: '#ffffff',
   },
 });

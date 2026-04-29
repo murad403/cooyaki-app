@@ -20,7 +20,7 @@ const SplashScreen = ({ navigation }: { navigation: any }) => {
             }),
         ]).start(() => {
             setTimeout(() => {
-                navigation.replace('Main');
+                navigation.replace('Onboarding');
             }, 1000);
         });
     }, [navigation, scale, opacity]);
